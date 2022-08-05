@@ -1,0 +1,49 @@
+# default ↓
+# site_name: My Docs
+
+# new ↓
+# Project information
+site_name: 'MarkdownとPythonで学ぶwebサイト'
+site_description: 'かいはつちゅう'
+site_author: 'sou@sephy'
+site_url: 'http://yourSite'
+
+
+# Copyright
+copyright: 'Copyright (c) 2016'
+
+# Documentation and theme
+docs_dir: 'docs'
+theme: 'material'
+
+# Options
+extra:
+
+  palette:
+    primary: 'Light Blue'
+    accent: 'Orange'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  i18n:
+    prev: 'Previous'
+    next: 'Next'
+  author:
+    github: 'yourName'
+    twitter: 'yourName'
+
+
+extra_css:
+  - "css/wy-menu-vertical.css"
+
+nav:
+  - Home: index.md
+  - Page1: contents/page1.md
+  - Page2: contents/page2.md
+
+# Extensions
+markdown_extensions:
+  # - codehilite(css_class=code)
+  - admonition
+  - toc:
+      permalink: '#'
